@@ -37,13 +37,15 @@ isl-translator/
 
 ```bash
 # Clone repo
-git clone https://github.com/verstappen-capstone/isl-translator.git
+git clone -b Ekta https://github.com/verstappen-capstone/isl-translator.git
 cd isl-translator
 
 # Create virtual environment
-python3 -m venv venv
-source venv/bin/activate
-
+python3 -m venv venv - MAC
+python -m venv venv - Windows
+#Activate Venv
+source venv/bin/activate - Mac
+venv\Scripts\Activate.ps1 - Windows
 # Install dependencies
 pip install -r requirements.txt
 📊 Project Status
