@@ -1,0 +1,127 @@
+# ============================================
+# Python
+# ============================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# ============================================
+# Virtual Environment
+# ============================================
+venv/
+env/
+ENV/
+.venv/
+
+# ============================================
+# Environment Variables
+# ============================================
+.env
+.env.local
+.env.*.local
+
+# ============================================
+# Datasets (TOO LARGE for GitHub)
+# ============================================
+data/raw/*
+data/processed/*
+data/augmented/*
+!data/**/README.md
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/augmented/.gitkeep
+
+# ============================================
+# Models (TOO LARGE for GitHub)
+# ============================================
+models/trained/*.h5
+models/trained/*.keras
+models/trained/*.pb
+models/tflite/*.tflite
+models/tflite/*.lite
+!models/**/README.md
+
+# ============================================
+# Jupyter Notebooks
+# ============================================
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ============================================
+# IDE
+# ============================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ============================================
+# macOS
+# ============================================
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# ============================================
+# Unity
+# ============================================
+unity-avatar/Library/
+unity-avatar/Temp/
+unity-avatar/Obj/
+unity-avatar/Build/
+unity-avatar/Builds/
+unity-avatar/Logs/
+unity-avatar/UserSettings/
+unity-avatar/.vs/
+unity-avatar/*.csproj
+unity-avatar/*.sln
+
+# ============================================
+# Demo Files
+# ============================================
+demo/videos/*.mp4
+demo/videos/*.mov
+demo/screenshots/*.png
+demo/screenshots/*.jpg
+!demo/**/README.md
+
+# ============================================
+# Test Coverage
+# ============================================
+.coverage
+htmlcov/
+.pytest_cache/
+.tox/
+
+# ============================================
+# Logs
+# ============================================
+*.log
+logs/
+
+# ============================================
+# Temporary Files
+# ============================================
+*.tmp
+*.bak
+*.cache
+
