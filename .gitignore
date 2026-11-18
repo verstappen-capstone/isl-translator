@@ -1,0 +1,14 @@
+data/
+*.task
+*.tflite
+*.h5
+*.keras
+venv/
+__pycache__/
+.idea/
+build/
+local.properties
+ml-pipeline/test_videos/
+*.npz
+*.log
+mediapipe_log.txt
